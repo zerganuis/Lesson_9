@@ -11,7 +11,7 @@ int InputNum(string text)
 }
 void PrintNumbers(int n, int count)
 {
-      if (count > n)
+    if (count > n)
     {
         return;
     }
@@ -25,12 +25,12 @@ int number = InputNum("Введите число: ");
 int count = 1;
 PrintNumbers(number, count);
 
- /*
- Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
- M = 1; N = 15 -> 120
- M = 4; N = 8. -> 30
- */
- 
+/*
+Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+M = 1; N = 15 -> 120
+M = 4; N = 8. -> 30
+*/
+
 int InputNumM(string message)
 {
     Console.Write(message);
@@ -64,7 +64,7 @@ SumFromMToN(firstNum, secondNum);
  m = 2, n = 3 -> A(m,n) = 9
  m = 3, n = 2 -> A(m,n) = 29
  */
- 
+
 int InputNumM(string message)
 {
     Console.Write(message);
@@ -73,7 +73,7 @@ int InputNumM(string message)
 // Принт функции Аккермана
 void AkkermanFunction(int m, int n)
 {
-    Console.Write(Akkerman(m, n)); 
+    Console.Write(Akkerman(m, n));
 }
 // функция Аккермана
 int Akkerman(int m, int n)
