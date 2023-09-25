@@ -4,8 +4,6 @@
  N = 8. -> "8, 7, 6, 5, 4, 3, 2, 1"
  */
 
-
-
 int InputNum(string text)
 {
     Console.Write(text);
@@ -26,7 +24,6 @@ void PrintNumbers(int n, int count)
 int number = InputNum("Введите число: ");
 int count = 1;
 PrintNumbers(number, count);
-
 
  /*
  Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
